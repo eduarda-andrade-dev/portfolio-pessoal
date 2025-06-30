@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoLógica - Tudo sobre tecnologia</title>
+</head>
+
+<style>
+/******* LIMPAR FORMATAÇÕES *******/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/******* FORMATAÇÕES GENÉRICAS *******/
+body{
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+}
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color: #0066CC;
+}
+
+h3{
+    color: #565656;
+    background: #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/******* HEADER *******/
+header{
+    background-color: #0066CC;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: #0066CC;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#logo{
+padding: 10px;
+}
+
+nav a:link, header a:visited{
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: 0.2s;
+    font-weight: 550;
+}
+
+nav a:hover{
+    color: #0066CC;
+    background: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.white{
+    color:#FFFFFF
+}
+
+/******* CONTENT *******/
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    background: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-bottom: block; 
+}
+
+.img-post{
+    margin-top: 10px;
+    width: 620px;
+    border-radius: 5px;
+}
+
+/******* RIGHT SIDE *******/
+#right-side{
+    width: 240px;
+    float: right;
+}
+
+.content-right{
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content-right a{
+    font-size: 14px;
+}
+
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+/******* FORMATAÇÃO DE LINKS *******/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:#0066CC
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/******* Rodapé *******/
+footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    clear:both;
+    text-align: center;
+    padding: 30px;
+    color: #424242
+}
+</style>
+<body>
+    <header>
+        <div id="logo">
+            <h1>Tecno<span class="white">Lógica</span></h1>
+        </div>
+    </header>
+
+    <nav>  
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="#">Jogos</a>
+            <a href="#">Smartphones</a>
+        </div>
+    </nav>
+   
+    <div id="content">
+
+        <div id="posts">
+
+            <!-- abertura postagem -->
+            <div class="post">
+                <h2>Titulo da postagem 1</h2>
+                <span class="data-post">postado 04 setembro 2024</span>
+                <img class="img-post" src="img/tecnologia01.png">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                </p>
+                <a href="">Leia mais</a>
+            </div>
+            <!--fechamento postagem -->
+
+            <!-- abertura postagem -->
+            <div class="post">
+                <h2>Titulo da postagem 2</h2>
+                <span class="data-post">postado 04 setembro 2023</span>
+                <img class="img-post" src="img/tecnologia02.png">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                </p>
+                <a href="">Leia mais</a>
+            </div>
+            <!--fechamento postagem -->
+
+        </div>
+    
+        <div id="right-side">
+
+            <div class="content-right">
+                <h3>Postagens recentes</h3>
+
+                <div class="post-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
+
+                <div class="post-right" style="border-bottom: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
+
+            </div>
+
+            <div class="content-right">
+                <h3>Categorias</h3>
+
+                <a href="">Tecnologia</a><br>
+                <a href="">Jogos</a><br>
+                <a href="">Smartphones</a><br>
+                
+            </div>
+
+        </div>
+<footer>
+    Todos os direitos reservados - Eduarda Andrade
+</footer>
+
+
+    </div>
+</body>
+
+</html>
